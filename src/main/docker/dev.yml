@@ -1,0 +1,7 @@
+shopcart-dev-mongodb:
+  container_name: shopcart-dev-mongodb
+  image: mongo:3.0.7
+  # volumes:
+  #   - ~/volumes/jhipster/shopcart/dev-mongodb/:/data/db/
+  ports:
+    - "27017:27017"

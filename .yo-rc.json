@@ -1,0 +1,26 @@
+{
+  "generator-jhipster": {
+    "baseName": "shopcart",
+    "packageName": "fr.matsurf.shopcart",
+    "packageFolder": "fr/matsurf/shopcart",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "hazelcast",
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": false,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "517678a558d4c349b1ec6b236ea65221885632a3",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ]
+  }
+}
